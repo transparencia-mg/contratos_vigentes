@@ -1,0 +1,66 @@
+{
+  "name": "contratos_vigentes",
+  "owner_org": "instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "contratos_vigentes",
+      "path": "data/contratos_vigentes.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "periodo_referencia",
+            "type": "date"
+          },
+          {
+            "name": "regiao_assistencial",
+            "type": "string"
+          },
+          {
+            "name": "microrregiao_do_prestador",
+            "type": "string"
+          },
+          {
+            "name": "municipio",
+            "type": "string"
+          },
+          {
+            "name": "ramo_atividade",
+            "type": "string"
+          },
+          {
+            "name": "num_contrato",
+            "type": "integer"
+          },
+          {
+            "name": "cpnj",
+            "type": "integer"
+          },
+          {
+            "name": "razao_social",
+            "type": "string"
+          },
+          {
+            "name": "inicio_vigencia",
+            "type": "date"
+          },
+          {
+            "name": "fim_vigencia",
+            "type": "datetime"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Contratos_vigentes"
+}
