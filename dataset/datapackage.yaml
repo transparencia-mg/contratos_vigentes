@@ -2,7 +2,7 @@ name: contratos_vigentes
 owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: Relação de contratos vigentes pelo credenciamento no Instituto do Estado de Minas Gerais.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -15,24 +15,44 @@ resources:
       fields:
         - name: periodo_referencia
           type: date
+          description: Data de referência
+          title: Ano e mês de referência correspondente ao dado (aaaa_mm).
         - name: regiao_assistencial
           type: string
+           description: Macrorregião do prestador
+          title: Macrorregião de origem do prestador de serviços. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, secundária e terciária à saúde com capacidade instalada.
         - name: microrregiao_do_prestador
           type: string
+           description: Microrregião do prestador
+          title: Microrregião de origem do prestador de serviços. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e hierarquizado em função do nível de atenção primária, secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles.
         - name: municipio
           type: string
+           description: Município do Prestador
+          title: Município de origem do prestador de serviços. 
         - name: ramo_atividade
           type: string
+           description: Ramo de Atividade
+          title: tipo de estabelecimento do prestador. São exemplos clinica, consultório, hospital e laboratório.
         - name: num_contrato
           type: integer
+           description: Número do Contrato
+          title: Número do instrumento de acordo de vontades entre o Ipsemg e prestadores credenciados para a prestação de serviços de assistência à saúde, com a estipulação de obrigações recíprocas, incluindo seus aditivos e demais ajustes, observada a Lei Federal nº 14.133, de 2021, e regulamentos vigentes;
         - name: cpnj
           type: integer
+           description: CNPJ
+          title: Cadastro Nacional da Pessoa Jurídica do prestador credenciado
         - name: razao_social
           type: string
+           description: Razão Social
+          title: Razão Social do Credenciado
         - name: inicio_vigencia
           type: date
+           description: Início da vigência
+          title: Inicio da vigência conforme previsão contratual.
         - name: fim_vigencia
           type: datetime
+           description: Fim da Vigência
+          title: Término da vigência conforme previsão contratual.
     scheme: file
     title: Insira um título humanamente legível para este recurso.
 title: Contratos_vigentes
