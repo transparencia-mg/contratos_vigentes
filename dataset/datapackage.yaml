@@ -2,7 +2,7 @@ name: contratos_vigentes
 owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
 profile: data-package
 resources:
-  - description: Relação de contratos vigentes pelo credenciamento no Instituto do Estado de Minas Gerais.
+  - description: Contratos Vigentes
     dialect:
       delimiter: ;
     encoding: utf-8-sig
