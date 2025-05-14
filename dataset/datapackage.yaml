@@ -20,14 +20,12 @@ resources:
         - name: regiao_assistencial
           type: string
           description: >
-          Macrorregião de origem do prestador de serviços. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, 
-          secundária e terciária à saúde com capacidade instalada.
+          Macrorregião de origem do prestador de serviços. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, secundária e terciária à saúde com capacidade instalada.
           title: Macrorregião do prestador
         - name: microrregiao_do_prestador
           type: string
           description: >
-          Microrregião de origem do prestador de serviços. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e hierarquizado em função do nível de atenção primária, 
-          secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles.
+          Microrregião de origem do prestador de serviços. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e hierarquizado em função do nível de atenção primária, secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles.
           title: Microrregião do prestador 
         - name: municipio
           type: string
@@ -39,8 +37,7 @@ resources:
           title: Ramo de Atividade
         - name: num_contrato
           type: integer
-          description: Número do instrumento de acordo de vontades entre o IPSEMG e prestadores credenciados para a prestação de serviços de assistência à saúde, com a estipulação de obrigações recíprocas, 
-          incluindo seus aditivos e demais ajustes, observada a Lei Federal nº 14.133, de 2021 e regulamentos vigentes.
+          description: Número do instrumento de acordo de vontades entre o IPSEMG e prestadores credenciados para a prestação de serviços de assistência à saúde, com a estipulação de obrigações recíprocas, incluindo seus aditivos e demais ajustes, observada a Lei Federal nº 14.133, de 2021 e regulamentos vigentes.
           title: Número do Contrato 
         - name: cpnj
           type: integer
