@@ -88,7 +88,7 @@
           "rows": 1862
         }
       },
-      "time": 0.116,
+      "time": 0.115,
       "scope": [
         "hash-count-error",
         "byte-count-error",
